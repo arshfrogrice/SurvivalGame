@@ -1,4 +1,9 @@
 # SurvivalGame
+FrostWreck is an immersive survival game set in the harsh, frozen wilderness after a devastating plane crash. Stranded and alone, the player must navigate through a dangerous, snow-covered terrain while battling extreme cold, hunger, and hostile creatures like wolves and bears.
+
+The game challenges players to gather resources, craft tools, and follow clues to uncover their ultimate goal: contacting emergency services and returning to their family. With a dynamic day-night cycle, realistic survival mechanics, and a captivating storyline, FrostWreck delivers a thrilling and immersive experience where every decision can mean the difference between life and death.
+
+
 Functionality of each script is explained as below: 
 AI_Movement.cs :- This script controls AI movement in Unity using a NavMeshAgent and animations. The AI randomly chooses a direction (forward, left, right, or backward) to walk for a set duration, then stops and waits before choosing a new direction, with animations toggling between running and idle states.
 Animal.cs :- This script manages an animal's health, damage, and death in Unity. It tracks player proximity, updates a health bar UI, triggers animations for taking damage or dying, and plays a death sound before destroying the animal object when its health reaches zero.
